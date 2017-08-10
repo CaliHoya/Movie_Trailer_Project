@@ -12,7 +12,7 @@ git clone https://github.com/CaliHoya/Movie_Trailer_Project.git
 ```
 
 ## Directions
-To view and explore the Movie Trailer Website, run the following:
+To view and explore the Movie Trailer Website, navigate to the cloned folder and run the following:
 ```python
 python entertainment_center.py
 ```
