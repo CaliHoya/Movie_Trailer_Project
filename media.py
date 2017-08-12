@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """Creates instances of movies with key data and method to play trailer
 
@@ -10,8 +11,8 @@ class Movie():
         trailer_youtube_url: URL of movie trailer
     """
 
-    def __init__(self, movie_title, movie_storyline, poster_image, 
-    	         trailer_youtube):
+    def __init__(self, movie_title, movie_storyline, poster_image,
+                 trailer_youtube):
         """Inits Movie instance with all relevant movie data"""
         self.title = movie_title
         self.storyline = movie_storyline
@@ -19,5 +20,5 @@ class Movie():
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
-    	"""Opens movie trailer pop-up"""
+        """Opens movie trailer pop-up"""
         webbrowser.open(self.trailer_youtube_url)
